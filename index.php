@@ -215,10 +215,9 @@
             file_put_contents($slug, $serializedObject);
         }
     }
-l
+
 //--------------------------------------------------------------------------
     $test = new TelegraphText('ilya', 'eee');
     $test->editText('new title', 'fffffffffffffffffff');
     $testStorage = new FileStorage();
-    //var_dump($testStorage->list_());
-    //var_dump($testStorage->read('eee_2022-11-09'));
+    
