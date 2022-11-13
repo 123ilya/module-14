@@ -1,6 +1,5 @@
 <?php
-    
-    class Text
-    {
-        
-    }
+
+class Text
+{
+}
